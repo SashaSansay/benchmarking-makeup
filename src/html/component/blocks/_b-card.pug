@@ -1,0 +1,17 @@
+mixin b-card(image, link, cardname, desc, likenum, badge)
+    .b-card
+        .b-card__container&attributes(attributes)
+            .b-card__image
+                if image
+                    span.b-card__badge= badge
+                    span.b-card__link-icon See full page
+                        svg(class='svg-icon svg-icon-link')
+                            use(xlink:href='common/icons/icons.svg#icon-link-arrow')
+                    a.b-card__link(href=link)
+                    img(src='common/images/'+image)
+            .b-card__description
+                h5.b-card__name= cardname
+                p.b-card__tag-description= desc
+                span.b-card__like= likenum
+                    svg(class='svg-icon svg-icon-like')
+                        use(xlink:href='common/icons/icons.svg#icon-like')

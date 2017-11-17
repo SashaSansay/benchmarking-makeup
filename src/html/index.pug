@@ -1,0 +1,28 @@
+extends component/_layout
+
+include component/blocks/_b-card
+
+block content
+    .b-wrap__popup
+        .b-wrap__popup-close-area
+            svg(class='svg-icon svg-icon-cross')
+                use(xlink:href='common/icons/icons.svg#icon-cross')
+        include component/blocks/_b-popup
+        include component/blocks/_b-popup-2
+    .b-wrap__sidebar
+        include component/blocks/_b-sidebar
+    .b-wrap__container
+        include component/blocks/_b-header
+        .b-wrap__cards
+            +b-card('img1.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', 'Recommended')
+            +b-card('img2.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img3.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img4.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img5.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img6.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img1.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img2.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', 'Recommended')
+            +b-card('img3.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img4.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img5.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')
+            +b-card('img6.jpg', 'page.html', 'Barcklay’s Bank', 'hero, navigation', '115', '')

@@ -1,0 +1,163 @@
+.b-wrap__container
+  width: calc(100% - 352px)
+  margin-left: 352px
+  font-size: 0
+  padding-left: calcRem(40px)
+  padding-right: calcRem(70px)
+
+.b-card
+  width: 50%
+  display: inline-block
+
+.b-card__container
+  font-size: 0
+  padding-left: calcRem(30px)
+  padding-right: calcRem(30px)
+  padding-bottom: calcRem(50px)
+  &:hover
+    .b-card__like
+      color: $blue
+    .svg-icon-like
+      fill: $blue
+      use
+        fill: $blue
+
+
+.b-card__image
+  background: white
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.06)
+  border-radius: 3px
+  line-height: 0
+  overflow: hidden
+  position: relative
+  transform: translateY(0)
+  transition: transform ease 0.3s, box-shadow ease 0.3s
+  .b-card__link
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: 1
+    background-color: rgba(49,94,251,0)
+    mix-blend-mode: multiply //warning
+    transition: background-color ease 0.45s
+  img
+    max-width: 100%
+    width: 100%
+  &:hover
+    transform: translateY(-3px)
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25)
+    .b-card__link
+      background-color: rgba(49,94,251,0.9)
+    .b-card__link-icon
+      opacity: 1
+      transform: translate3d(-50%, -50%, 1px)
+    .svg-icon-link
+      opacity: 1
+      transform: translate3d(0, 0, 1px)
+    .b-card__badge
+      background-color: white
+      color: $blue
+
+.b-card__description
+  padding-top: calcRem(20px)
+
+.b-card__name
+  @include fontSemiBold()
+  font-size: calcRem(15px)
+  color: $black
+
+.b-card__tag-description,
+.b-card__like
+  @include fontSemiBold()
+  font-size: calcRem(13px)
+  color: $grey
+
+.b-card__like
+  float: right
+  display: inline-block
+  position: relative
+  transition: color ease 0.45s
+  cursor: pointer
+
+.svg-icon-like
+  width: calcRem(15px)
+  height: calcRem(13px)
+  display: inline-block
+  margin-left: calcRem(6px)
+  transform: translate3d(0, 2px, 1px)
+  fill: $grey
+  //transition: fill ease 0.45s
+  use
+    fill: $grey
+    transition: fill ease 0.45s
+
+.b-card__link-icon
+  text-align: center
+  color: white
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate3d(-50%, -30%, 1px)
+  z-index: 2
+  pointer-events: none
+  padding-top: calcRem(60px)
+  line-height: 1
+  @include fontBlack()
+  font-size: calcRem(13px)
+  opacity: 0
+  transition: opacity ease 0.4s, transform ease 0.45s
+  will-change: transfrom
+
+.svg-icon-link
+  width: calcRem(44px)
+  height: calcRem(44px)
+  border-radius: 100%
+  padding: calcRem(14px) 0
+  background-color: rgba(255,255,255,1)
+  position: absolute
+  top: 0
+  left: 50%
+  margin-left: calcRem(-22px)
+  opacity: 0
+  transform: translate3d(0, 5px, 1px)
+  transition: opacity ease 0.45s, transform ease 0.5s
+  will-change: transfrom
+  use
+    fill: $black
+
+.b-card__name + .b-card__tag-description
+  padding-left: calcRem(13px)
+  display: inline-block
+
+.b-card__tag-description + .b-card__name
+  float: left
+  display: inline-block
+
+.b-card__badge
+  pointer-events: none
+  font-size: calcRem(10px)
+  padding: 0
+  width: calcRem(180px)
+  text-align: center
+  background-color: $blue
+  color: white
+  text-transform: uppercase
+  @include fontBlack()
+  line-height: calcRem(32px)
+  position: absolute
+  right: calcRem(-65px)
+  top: calcRem(-32px)
+  transform: rotate(45deg)
+  transform-origin: 0
+  z-index: 2
+  transition: background-color ease 0.45s, color ease 0.45s
+
+
+@media screen and (max-width: 1200px)
+  .b-wrap__container
+    padding-left: 0
+    padding-right: 0
+
+@media screen and (max-width: 1024px)
+  .b-card
+    width: 100%

@@ -1,0 +1,39 @@
+@import "component/etc/color"
+@import "component/etc/screenSizes"
+@import "component/fonts"
+@import "component/typo"
+
+
+@function calcRem($size)
+  $remSize: $size / 16px
+  @return #{$remSize}rem
+
+@mixin clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+*
+  box-sizing: border-box
+  -webkit-font-smoothing: antialiased
+
+html
+  font-size: 16px
+
+body
+  all: initial
+  @include fontNormal()
+  font-size: 1rem
+  background: $whiteBlue
+  color: $black
+
+.lock
+  overflow: hidden
+
+@import "blocks"
+@import "elements"
+
+@media all and (max-width: $tabletWidth)
+  html
+    font-size: 22px!important

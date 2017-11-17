@@ -1,0 +1,35 @@
+block vars
+
+doctype html
+html(class=htmlClass id=htmlId)
+    head
+        title
+            block title
+
+        block meta
+            meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
+            meta(name="format-detection" content="telephone=no")
+            meta(charset='utf-8')
+            link(rel="stylesheet" href="common/style/main.css")
+
+    body(class=bodyClass id=bodyId)
+        //include _header
+
+        //.b-burger
+            .b-burger__inner
+                .b-wrap
+                    .b-burger__close
+                        svg
+                            use(xlink:href='/common/icons/icons.svg#icon-menu-close')
+                    include _footer
+        .b-wrap
+            block content
+
+            //include _footer
+
+        block scripts
+            //Scripts
+
+
+            script(src="common/script/assets.min.js")
+            script(src="common/script/main.min.js")

@@ -1,0 +1,62 @@
+.b-sidebar
+    .b-sidebar__logo
+        a(href='index.html').logo-link
+        svg(class='svg-icon svg-icon-logo')
+            use(xlink:href='common/icons/icons.svg#icon-logo')
+    .b-sidebar__filter
+        .e-select
+            select(name='' id='')
+                option(value="" disabled="disabled" selected="selected") Select an industry
+                option Select an industry1
+                option Select an industry2
+                option Select an industry3
+                option Select an industry4
+                option Select an industry5
+        .e-select
+            select(name='' id='')
+                option(value="" disabled="disabled" selected="selected") Select an industry
+                option Select an industry1
+                option Select an industry2
+                option Select an industry3
+                option Select an industry4
+                option Select an industry5
+    .b-sidebar__taglist
+        ul.taglist__list
+            li
+                a(href="#") Hero
+            li
+                a(href="#") Navigation
+            li.active-el
+                a(href="#")
+                    | Maps
+                    span.active-el__num 34
+            li
+                a(href="#") CTA
+            li
+                a(href="#") Calculators
+            li
+                a(href="#") Value proposition
+            li
+                a(href="#") Pricing
+            li
+                a(href="#") Features: single/list
+            li
+                a(href="#") Login
+            li
+                a(href="#") News
+            li
+                a(href="#") Faq
+
+    .b-sidebar__subscribe-form
+        span.e-label Subscribe us newsletter
+        form(action="#")
+            input.e-textfield.e-textfield--button(type="email" placeholder="Email Address")
+            button.e-button Mail us
+
+    .b-sidebar__copyright
+        h5
+            | Made by
+            a(href="#") Eulerr
+            br
+            |  and
+            a(href="#") Nikolay Ivanov

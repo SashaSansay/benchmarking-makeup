@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="7px" viewBox="0 0 6 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" fill="#FFFFFF">
+            <path d="M1.00010628,1 L4.99999673,1 L4.99999673,1 C5.55228148,1 5.99999673,1.44771525 5.99999673,2 C5.99999673,2.19742376 5.94155943,2.3904303 5.83204903,2.55469719 L3.8321038,5.55463851 L3.8321038,5.55463851 C3.525753,6.01416831 2.90488411,6.13834442 2.44535431,5.83199362 C2.33549974,5.75875781 2.24123502,5.66449309 2.16799921,5.55463851 L0.168053979,2.55469719 L0.168053979,2.55469719 C-0.13829682,2.0951674 -0.014120709,1.4742985 0.445409086,1.1679477 C0.609675975,1.0584373 0.802682522,1 1.00010628,1 Z" id="Rectangle-2" transform="translate(2.999998, 3.500024) rotate(-270.000000) translate(-2.999998, -3.500024) "></path>
+        </g>
+    </g>
+</svg>

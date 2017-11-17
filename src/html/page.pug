@@ -1,0 +1,17 @@
+extends component/_layout
+
+include component/blocks/_b-card
+
+block content
+    .b-wrap__popup
+        .b-wrap__popup-close-area
+            svg(class='svg-icon svg-icon-cross')
+                use(xlink:href='common/icons/icons.svg#icon-cross')
+    .b-wrap__sidebar
+        include component/blocks/_b-sidebar-page
+    .b-wrap__container
+        include component/blocks/_b-header-page
+        .b-wrap__card-page
+            .b-card-page
+                .b-card-page__image
+                    img(src='common/images/page.jpg')

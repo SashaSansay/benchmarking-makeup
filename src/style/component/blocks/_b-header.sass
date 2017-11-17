@@ -1,0 +1,62 @@
+.b-header
+  height: calcRem(100px)
+  display: flex
+  align-items: center
+  //position: sticky
+  //top: 0
+  //z-index: 4
+  transform: translateZ(2px)
+  //background: linear-gradient(#eef2f4, #ecf1f4 21.85%, rgba(236, 241, 244, 0.93) 45.8%, rgba(238, 242, 244, 0))
+
+.b-header__title,
+.b-header__links
+  width: 50%
+  padding-left: calcRem(30px)
+  padding-right: calcRem(30px)
+
+.b-header__title
+  font-size: calcRem(15px)
+  @include fontSemiBold()
+  color: $grey
+  span
+    color: $black
+    padding: 0 calcRem(2px) 0 calcRem(4px)
+
+.links--left
+  float: left
+.links--right
+  float: right
+
+.links
+  list-style: none
+  li
+    display: inline-block
+    font-size: calcRem(15px)
+    @include fontSemiBold()
+    padding-left: calcRem(20px)
+    &:first-child
+      padding-left: 0
+    a
+      color: $grey
+      transition: color ease 0.25s
+      &:hover
+        color: darken($blue, 10)
+    .current
+      color: $black
+
+  .popup-link
+    color: $blue
+    cursor: pointer
+    transition: color ease 0.25s
+    &:hover
+      color: darken($blue, 10)
+
+
+@media screen and (max-width: 1200px)
+
+  .b-header__title
+    display: none
+  .b-header__links
+    width: 100%
+
+//@media screen and (max-width: 1024px)

@@ -1,0 +1,81 @@
+.b-wrap__popup
+  width: 100%
+  height: 100%
+  position: fixed
+  z-index: 10
+  top: 0
+  right: 0
+  bottom: 0
+  background-color: rgba(49, 94, 251, 0)
+  pointer-events: none
+  transform: translate3d(0, 0, 10px)
+  transition: background-color ease 0.45s
+
+.b-popup
+  padding: calcRem(40px) calcRem(60px) calcRem(40px) calcRem(40px)
+  height: 100%
+  width: 525px
+  position: absolute
+  right: 0
+  background-color: white
+  overflow-y: scroll
+  transform: translateX(525px)
+  transition: transform cubic-bezier(0.52, 0.1, 0.12, 1) 0.5s
+  transition-delay: 0s
+  backface-visibility: hidden
+  will-change: transform
+
+.b-popup::-webkit-scrollbar
+  -webkit-appearance: none
+
+
+.b-popup::-webkit-scrollbar:vertical
+  width: 11px
+
+
+.b-popup::-webkit-scrollbar:horizontal
+  height: 11px
+
+
+.b-popup::-webkit-scrollbar-thumb
+  border-radius: 8px
+  border: 2px solid white /* should match background, can't be transparent */
+  background-color: #EEF2F4
+
+.b-wrap__popup-close-area
+  width: calc(100% - 525px)
+  height: 100%
+  position: absolute
+  left: 0
+  cursor: pointer
+
+.b-popup__container
+  opacity: 0
+  transition-delay: 0.3s
+  transition: opacity ease 0.45s
+
+.b-wrap__popup--visible
+  background-color: rgba(49, 94, 251, 0.9)
+  pointer-events: auto
+  .svg-icon-cross
+    opacity: 1
+  .svg-icon-cross
+    transform: translateX(0)
+
+.this-visible
+  transform: translateX(0)
+  .b-popup__container
+    opacity: 1
+
+.svg-icon-cross
+  transform: translateX(100px)
+  width: 14px
+  height: 14px
+  position: absolute
+  right: calcRem(50px)
+  top: calcRem(45px)
+  opacity: 0
+  pointer-events: none
+  transition-delay: 0.3s
+  transition: opacity ease 0.5s, transform ease 0.5s
+

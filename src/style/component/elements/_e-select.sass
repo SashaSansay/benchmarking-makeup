@@ -1,0 +1,74 @@
+.e-select
+  -moz-user-select: -moz-none
+  -ms-user-select: none
+  -webkit-user-select: none
+  user-select: none
+  overflow: hidden
+  border-radius: 3px
+  background-color: $whiteBlue
+  position: relative
+  width: 100%
+
+.e-select + .e-select
+  margin-top: calcRem(10px)
+
+.e-select:after 
+  content: '▾'
+  position: absolute
+  top: 0
+  right: 12px
+  z-index: 1
+  color: $black
+  line-height: calcRem(45px)
+  font-size: 15px
+
+.ie .e-select:after 
+  display: none
+
+
+select 
+  position: relative
+  background: transparent
+  background-image: none
+  display: block
+  outline: none
+  color: $black
+  cursor: pointer
+  z-index: 2
+  border: none
+  text-overflow: ''
+  text-indent: 5px
+  -moz-appearance: none
+  -webkit-appearance: none
+  padding: calcRem(15px)
+  font-size: calcRem(13px)
+  width: 100%
+  @include fontSemiBold()
+
+select[multiple=multiple] 
+  height: auto
+  border: 1px solid #cbcbcb
+  border-radius: 3px
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.07)
+  -moz-transition: box-shadow 0.2s
+  -o-transition: box-shadow 0.2s
+  -webkit-transition: box-shadow 0.2s
+  transition: box-shadow 0.2s
+
+select[multiple=multiple]:hover 
+  border-color: #cccccc
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2)
+
+select option[disabled] 
+  color: #eeeeee
+  text-shadow: none
+  border: none
+
+
+select:-moz-focusring 
+  color: transparent
+  text-shadow: 0 0 0 #888888
+
+
+select::-ms-expand 
+  display: none

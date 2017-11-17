@@ -1,0 +1,169 @@
+.b-wrap__sidebar
+  width: 352px
+  height: 100%
+  position: fixed
+  z-index: 3
+  top: 0
+  left: 0
+  bottom: 0
+
+.b-sidebar
+  background-color: white
+  width: 100%
+  height: 100%
+  overflow-y: scroll
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.06)
+  
+.b-sidebar::-webkit-scrollbar
+  -webkit-appearance: none
+
+
+.b-sidebar::-webkit-scrollbar:vertical
+  width: 11px
+
+
+.b-sidebar::-webkit-scrollbar:horizontal
+  height: 11px
+
+
+.b-sidebar::-webkit-scrollbar-thumb
+  border-radius: 8px
+  border: 2px solid white /* should match background, can't be transparent */
+  background-color: #EEF2F4
+
+
+.b-sidebar::-webkit-scrollbar-track
+  background-color: transparent
+  border-radius: 8px
+
+
+.b-sidebar__logo
+  background-color: $blue
+  padding: 0 calcRem(50px)
+  height: calcRem(100px)
+  display: flex
+  align-items: center
+  position: relative
+  transition: background-color ease 0.25s
+  position: -webkit-sticky
+  top: 0
+  z-index: 3
+  transform: translateZ(2px)
+  &:hover
+    background-color: darken($blue, 10)
+    .svg-icon-back
+      transform: translateX(-5px)
+
+
+.svg-icon-back
+  width: 6px
+  height: 5px
+  position: absolute
+  left: 0
+  top: 50%
+  margin-top: -2.5px
+  transform: translateX(0)
+  transform-origin: 0
+  transition: transform ease 0.25s
+
+.logo-back
+  padding-left: calcRem(35px)
+  position: relative
+  color: white
+  @include fontNormal()
+
+.logo-link
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  z-index: 2
+
+.svg-icon-logo
+  width: calcRem(188px)
+  height: calcRem(32px)
+
+.b-sidebar__dropdown
+  color: $lightBlue
+  margin-left: calcRem(10px)
+
+.b-sidebar__taglist
+  padding: calcRem(50px) calcRem(50px) 0 calcRem(50px)
+
+.taglist__list
+  list-style: none
+  li
+    position: relative
+    padding-top: calcRem(35px)
+    &:first-child
+      padding-top: 0
+    a
+      position: relative
+      display: block
+
+.active-el
+  a
+    color: $blue
+  &:before
+    content: ''
+    width: calcRem(4px)
+    height: calcRem(38px)
+    //margin-top: -1.1875rem
+    position: absolute
+    left: calcRem(-50px)
+    top: calcRem(24px)
+    background-color: $blue
+
+.active-el__num
+  position: absolute
+  @include fontBlack()
+  right: 0
+  font-size: 10px
+  color: white
+  background: $blue
+  padding: 2px 7px
+  border-radius: 10px
+  top: 2px
+
+.b-sidebar__filter
+  padding: calcRem(40px) calcRem(50px) 0 calcRem(50px)
+
+.b-sidebar__copyright
+  padding: calcRem(40px) calcRem(50px)
+  box-shadow: 0 -1px 0 $whiteBlue
+  position: -webkit-sticky
+  bottom: 0
+  background: white
+  h5
+    color: $grey
+    @include fontNormal()
+    a
+      color: $blue
+      margin-left: calcRem(6px)
+
+.b-sidebar__subscribe-form
+  padding: calcRem(70px) calcRem(50px) calcRem(50px) calcRem(50px)
+  position: relative
+  button
+    position: absolute
+    top: calcRem(106px)
+    right: calcRem(50px)
+
+.b-sidebar__details
+  padding: calcRem(40px) calcRem(50px) 0 calcRem(50px)
+  .b-card__name+.b-card__tag-description
+    display: block
+    padding-left: 0
+    padding-top: calcRem(5px)
+
+.b-sidebar__autorname
+  padding: calcRem(40px) calcRem(50px) calcRem(40px) calcRem(50px)
+
+.b-sidebar__details + .b-sidebar__autorname
+  padding-top: calcRem(300px)
+
+.e-member-name + .b-text-block
+  padding-top: calcRem(32px)
+
+
