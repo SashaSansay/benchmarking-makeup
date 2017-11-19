@@ -43,7 +43,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/json-schema/draft-zyp-json-schema-04.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/json-schema/lib/links.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/json-schema/lib/links.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/json-schema/test/tests.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/json-schema/test/tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/CHANGELOG" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/CHANGELOG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/README.md" afterPath="$PROJECT_DIR$/node_modules/json-schema/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-00/links" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-00/links" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-00/schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-00/schema" />
@@ -343,7 +342,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Presentation" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -372,7 +371,7 @@
       <updated>1510924018510</updated>
       <workItem from="1510924020375" duration="4094000" />
       <workItem from="1511089620907" duration="2294000" />
-      <workItem from="1511103463364" duration="18000" />
+      <workItem from="1511103463364" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="desktop version">
       <created>1510924481245</created>
@@ -416,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511102867474</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="desktop version">
+      <created>1511103508033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511103508033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6406000" />
+    <option name="totallyTimeSpent" value="6663000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -464,6 +470,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/benchmarking-makeup" />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="desktop version" />
     <option name="LAST_COMMIT_MESSAGE" value="desktop version" />
