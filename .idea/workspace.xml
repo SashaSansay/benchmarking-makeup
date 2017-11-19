@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d084b84-1b34-4957-a99d-e3190707b377" name="Default" comment="desktop version">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/pug/compile/timestamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" afterPath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-name/LICENSE" afterPath="$PROJECT_DIR$/node_modules/color-name/LICENSE" />
@@ -333,6 +332,24 @@
               <item name="benchmarking-makeup" type="b2602c69:ProjectViewProjectNode" />
               <item name="benchmarking-makeup" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="benchmarking-makeup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="benchmarking-makeup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="benchmarking-makeup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="benchmarking-makeup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="benchmarking-makeup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="benchmarking-makeup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -371,7 +388,7 @@
       <updated>1510924018510</updated>
       <workItem from="1510924020375" duration="4094000" />
       <workItem from="1511089620907" duration="2294000" />
-      <workItem from="1511103463364" duration="275000" />
+      <workItem from="1511103463364" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="desktop version">
       <created>1510924481245</created>
@@ -422,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511103508033</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="desktop version">
+      <created>1511103746498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511103746498</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6663000" />
+    <option name="totallyTimeSpent" value="7002000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -438,7 +462,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="1" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
