@@ -43,9 +43,10 @@
   height: calcRem(100px)
   display: flex
   align-items: center
-  position: relative
+   //position: relative
   transition: background-color ease 0.25s
   position: -webkit-sticky
+  position: sticky
   top: 0
   z-index: 3
   transform: translateZ(2px)
@@ -133,6 +134,7 @@
   padding: calcRem(40px) calcRem(50px)
   box-shadow: 0 -1px 0 $whiteBlue
   position: -webkit-sticky
+  position: sticky
   bottom: 0
   background: white
   h5
@@ -165,5 +167,43 @@
 
 .e-member-name + .b-text-block
   padding-top: calcRem(32px)
+
+
+@media screen and (max-width: 1300px)
+  .b-wrap__sidebar
+    width: 300px
+
+  .b-sidebar__subscribe-form
+    padding: calcRem(50px) calcRem(30px) calcRem(30px) calcRem(30px)
+    button
+      position: absolute
+      top: calcRem(85px)
+      right: calcRem(30px)
+
+  .b-sidebar__autorname
+    padding: calcRem(30px) calcRem(30px) calcRem(30px) calcRem(30px)
+
+  .b-sidebar__details
+    padding: calcRem(30px) calcRem(30px) 0 calcRem(30px)
+
+  .b-sidebar__filter
+    padding: calcRem(30px) calcRem(30px) 0 calcRem(30px)
+
+  .b-sidebar__copyright
+    padding: calcRem(30px) calcRem(30px)
+
+  .b-sidebar__logo
+    padding: 0 calcRem(30px)
+
+  .b-sidebar__taglist
+    padding: calcRem(30px) calcRem(30px) 0 calcRem(30px)
+
+@media all and (max-width: $mobileWidth)
+  .b-wrap__sidebar
+    width: 100%
+    position: relative
+    z-index: 1
+
+
 
 

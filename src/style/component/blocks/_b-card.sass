@@ -152,6 +152,11 @@
   z-index: 2
   transition: background-color ease 0.45s, color ease 0.45s
 
+@media screen and (max-width: 1300px)
+  .b-wrap__container
+    width: calc(100% - 300px)
+    margin-left: 300px
+    padding-right: calcRem(40px)
 
 @media screen and (max-width: 1200px)
   .b-wrap__container
@@ -161,3 +166,8 @@
 @media screen and (max-width: 1024px)
   .b-card
     width: 100%
+
+@media screen and (max-width: $mobileWidth)
+  .b-wrap__container
+    width: 100%
+    margin-left: 0
