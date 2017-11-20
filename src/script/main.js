@@ -67,8 +67,8 @@ $('.b-wrap__popup-close-area').on('click', function(e){
     $('#popup-2').removeClass('this-visible');
 });
 
-$('.b-card__like').on('click', function(e){
-    e.preventDefault();
+$('.b-card__like').on('click', function(){
+    //e.preventDefault();
     $(this).addClass('liked');
 });
 
