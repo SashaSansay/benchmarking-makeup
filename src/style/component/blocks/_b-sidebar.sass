@@ -204,6 +204,12 @@
   .b-sidebar__taglist
     padding: calcRem(30px) calcRem(30px) 0 calcRem(30px)
 
+  .active-el
+    a
+      color: $blue
+    &:before
+      left: calcRem(-30px)
+
 @media all and (max-width: $mobileWidth)
 
   .b-wrap__sidebar
