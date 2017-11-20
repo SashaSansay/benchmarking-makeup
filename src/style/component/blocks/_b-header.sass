@@ -68,3 +68,30 @@
 
 
 //@media screen and (max-width: 1024px)
+@media all and (max-width: $mobileWidth)
+  .links--left, .links--right
+    width: 100%
+    display: block
+    text-align: center
+
+  .links--left + .links--right
+    padding-top: calcRem(15px)
+
+  .b-wrap__container--second-page
+    .b-header
+      justify-content: space-between
+
+    .b-header__links, .b-header__title
+      width: auto
+      padding: 0
+
+    .b-header__title
+      padding-left: 1.875rem
+
+    .b-header__links
+      padding-right: 1.875rem
+
+    .links li
+      padding-left: 1rem
+      &:first-child
+        padding-left: 0
