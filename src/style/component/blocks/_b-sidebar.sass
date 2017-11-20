@@ -146,6 +146,10 @@
       color: $blue
       margin-left: calcRem(6px)
 
+.popup-submit, .popup-about
+  display: none
+  cursor: pointer
+
 .b-sidebar__subscribe-form
   padding: calcRem(70px) calcRem(50px) calcRem(50px) calcRem(50px)
   position: relative
@@ -210,6 +214,9 @@
     overflow-y: hidden
     max-height: 140px
     height: auto
+
+  .b-sidebar--second-page
+    max-height: 100px
 
   .this-visible
     //height: 100vh
@@ -277,6 +284,9 @@
     background: rgba(255, 255, 255, 1)
     box-shadow: none
     padding: 1rem 1.875rem
+    display: flex
+    align-items: center
+    justify-content: space-between
 
   .this-visible
     .b-sidebar__copyright
@@ -298,6 +308,26 @@
 
   .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before
     border-radius: 0
+
+  .popup-about
+    display: block
+    width: calcRem(20px)
+    height: calcRem(20px)
+    padding: calcRem(10px)
+    box-sizing: content-box
+    svg
+      width: 20px
+      height: 20px
+
+  .popup-submit
+    display: block
+    width: calcRem(20px)
+    height: calcRem(20px)
+    padding: calcRem(10px)
+    box-sizing: content-box
+    svg
+      width: 20px
+      height: 20px
 
 
 

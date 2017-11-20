@@ -45,14 +45,14 @@ BrowserDetect.init();
 
 $html.addClass(BrowserDetect.browser.toLowerCase());
 
-$('#about-page').on('click', function(e){
+$('#about-page, .popup-about').on('click', function(e){
     e.preventDefault();
     $('body').addClass('lock');
     $('.b-wrap__popup').addClass('b-wrap__popup--visible');
     $('#popup-1').addClass('this-visible');
 });
 
-$('#submit-page').on('click', function(e){
+$('#submit-page, .popup-submit').on('click', function(e){
     e.preventDefault();
     $('body').addClass('lock');
     $('.b-wrap__popup').addClass('b-wrap__popup--visible');
