@@ -1,0 +1,12 @@
+.hamburger
+  position: absolute
+  right: 30px
+  display: none
+  z-index: 3
+
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before
+  background-color: white
+
+@media all and (max-width: $mobileWidth)
+  .hamburger
+    display: block

@@ -67,6 +67,14 @@ $('.b-wrap__popup-close-area').on('click', function(e){
     $('#popup-2').removeClass('this-visible');
 });
 
+$('.hamburger').on('click', function(e){
+    e.preventDefault();
+    $('body').toggleClass('lock');
+    $(this).toggleClass('is-active');
+    $('.b-sidebar').toggleClass('this-visible');
+});
+
+
 
 var $grid = $('.b-wrap__cards').masonry({
     itemSelector: '.b-card',
@@ -77,3 +85,5 @@ var $grid = $('.b-wrap__cards').masonry({
 $grid.imagesLoaded().progress( function() {
     $grid.masonry('layout');
 });
+
+
