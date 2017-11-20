@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d084b84-1b34-4957-a99d-e3190707b377" name="Default" comment="mobile version">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/icons/icons.svg" afterPath="$PROJECT_DIR$/app/common/icons/icons.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/style/main.css" afterPath="$PROJECT_DIR$/app/common/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/style/main.css.map" afterPath="$PROJECT_DIR$/app/common/style/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" afterPath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" />
@@ -130,8 +129,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmldom/test/node.js" afterPath="$PROJECT_DIR$/node_modules/xmldom/test/node.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmldom/test/parse-element.js" afterPath="$PROJECT_DIR$/node_modules/xmldom/test/parse-element.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmldom/test/simple.js" afterPath="$PROJECT_DIR$/node_modules/xmldom/test/simple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/icons/cross.svg" afterPath="$PROJECT_DIR$/src/assets/icons/cross.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/component/blocks/_b-header.sass" afterPath="$PROJECT_DIR$/src/style/component/blocks/_b-header.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass" afterPath="$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass" afterPath="$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/main.sass" afterPath="$PROJECT_DIR$/src/style/main.sass" />
     </list>
     <ignored path="node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,11 +144,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_b-sidebar.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_b-sidebar.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -177,17 +178,19 @@
         <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-header.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="40" />
-              <folding />
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="40" />
+              <folding>
+                <marker date="1511177888883" expanded="true" signature="1237:1333" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_b-popup.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_b-popup.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="367">
+              <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -253,10 +256,13 @@
       <find>.b-wrap__container</find>
       <find>logo-l</find>
       <find>.svg-icon-cross</find>
+      <find>.b-sidebar__taglist</find>
+      <find>525</find>
+      <find>.lock</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/src/style</dir>
       <dir>$PROJECT_DIR$/src/style/component/blocks</dir>
+      <dir>$PROJECT_DIR$/src/style</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -274,9 +280,9 @@
         <option value="$PROJECT_DIR$/src/style/component/elements/_e-hamburger.sass" />
         <option value="$PROJECT_DIR$/src/html/component/blocks/_b-sidebar.pug" />
         <option value="$PROJECT_DIR$/src/script/main.js" />
-        <option value="$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass" />
         <option value="$PROJECT_DIR$/src/style/component/blocks/_b-header.sass" />
         <option value="$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass" />
+        <option value="$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass" />
       </list>
     </option>
   </component>
@@ -465,7 +471,7 @@
       <workItem from="1510924020375" duration="4094000" />
       <workItem from="1511089620907" duration="2294000" />
       <workItem from="1511103463364" duration="614000" />
-      <workItem from="1511104620569" duration="6333000" />
+      <workItem from="1511104620569" duration="11167000" />
     </task>
     <task id="LOCAL-00001" summary="desktop version">
       <created>1510924481245</created>
@@ -544,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511171197052</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mobile version">
+      <created>1511172046322</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1511172046322</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13335000" />
+    <option name="totallyTimeSpent" value="18169000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -625,7 +638,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1511177888883" expanded="true" signature="1237:1333" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -697,7 +712,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1511177888883" expanded="true" signature="1237:1333" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,7 +794,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1511177888883" expanded="true" signature="1237:1333" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,26 +912,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-header.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="40" />
-          <folding />
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <marker date="1511177888883" expanded="true" signature="1237:1333" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="367">
+          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
