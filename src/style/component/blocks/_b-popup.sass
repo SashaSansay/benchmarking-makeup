@@ -78,4 +78,19 @@
   pointer-events: none
   transition-delay: 0.3s
   transition: opacity ease 0.5s, transform ease 0.5s
+  use
+    fill: white
 
+@media all and (max-width: $mobileWidth)
+  .b-popup
+    width: 100%
+    max-width: 525px
+
+  .b-wrap__popup-close-area
+    width: 100%
+    height: calcRem(100px)
+    z-index: 12
+
+  .svg-icon-cross
+    use
+      fill: $black
