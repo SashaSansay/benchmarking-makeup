@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-243.000000, -596.000000)">
+            <g id="Group-8" transform="translate(243.000000, 596.000000)">
+                <circle id="Oval" stroke="#315EFB" stroke-width="2" cx="10" cy="10" r="9"></circle>
+                <path d="M9.145,11.415 L10.663,11.415 C10.663,10.447 12.511,9.963 12.511,8.313 C12.511,6.894 11.29,6.146 10.047,6.146 C8.881,6.146 7.836,6.74 7.385,7.851 L8.683,8.599 C8.914,8.005 9.343,7.62 9.992,7.62 C10.63,7.62 10.993,7.917 10.993,8.423 C10.993,9.512 9.145,9.963 9.145,11.415 Z M9.904,14.143 C10.421,14.143 10.839,13.725 10.839,13.208 C10.839,12.691 10.421,12.273 9.904,12.273 C9.387,12.273 8.969,12.691 8.969,13.208 C8.969,13.725 9.387,14.143 9.904,14.143 Z" id="?" fill="#315EFB"></path>
+            </g>
+        </g>
+    </g>
+</svg>
