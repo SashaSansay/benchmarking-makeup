@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d084b84-1b34-4957-a99d-e3190707b377" name="Default" comment="mobile version">
+    <list default="true" id="1d084b84-1b34-4957-a99d-e3190707b377" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/style/main.css" afterPath="$PROJECT_DIR$/app/common/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/style/main.css.map" afterPath="$PROJECT_DIR$/app/common/style/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" afterPath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-name/LICENSE" afterPath="$PROJECT_DIR$/node_modules/color-name/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/edgestore/LICENSE" afterPath="$PROJECT_DIR$/node_modules/edgestore/LICENSE" />
@@ -129,10 +127,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmldom/test/node.js" afterPath="$PROJECT_DIR$/node_modules/xmldom/test/node.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmldom/test/parse-element.js" afterPath="$PROJECT_DIR$/node_modules/xmldom/test/parse-element.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmldom/test/simple.js" afterPath="$PROJECT_DIR$/node_modules/xmldom/test/simple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/component/blocks/_b-header.sass" afterPath="$PROJECT_DIR$/src/style/component/blocks/_b-header.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass" afterPath="$PROJECT_DIR$/src/style/component/blocks/_b-popup.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass" afterPath="$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/main.sass" afterPath="$PROJECT_DIR$/src/style/main.sass" />
     </list>
     <ignored path="node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,8 +142,8 @@
       <file leaf-file-name="_b-sidebar.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="224">
+              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -259,6 +254,7 @@
       <find>.b-sidebar__taglist</find>
       <find>525</find>
       <find>.lock</find>
+      <find>.this-visible</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/style/component/blocks</dir>
@@ -471,7 +467,7 @@
       <workItem from="1510924020375" duration="4094000" />
       <workItem from="1511089620907" duration="2294000" />
       <workItem from="1511103463364" duration="614000" />
-      <workItem from="1511104620569" duration="11167000" />
+      <workItem from="1511104620569" duration="11415000" />
     </task>
     <task id="LOCAL-00001" summary="desktop version">
       <created>1510924481245</created>
@@ -557,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511172046322</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mobile version">
+      <created>1511182744582</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1511182744582</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18169000" />
+    <option name="totallyTimeSpent" value="18417000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -932,8 +935,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/component/blocks/_b-sidebar.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="224">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding />
         </state>
       </provider>
