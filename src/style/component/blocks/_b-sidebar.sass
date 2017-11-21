@@ -118,6 +118,10 @@
     top: calcRem(24px)
     background-color: $blue
 
+.active-el:first-child
+  &:before
+    top: -0.75rem
+
 .active-el__num
   position: absolute
   @include fontBlack()
