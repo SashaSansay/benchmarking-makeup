@@ -104,6 +104,9 @@
       display: block
       font-size: calcRem(13px)
       text-transform: uppercase
+      transition: color ease 0.25s
+      &:hover
+        color: darken($blue, 10)
 
 .active-el
   a
@@ -149,6 +152,9 @@
     a
       color: $blue
       margin-left: calcRem(6px)
+      transition: color ease 0.25s
+      &:hover
+        color: darken($blue, 10)
 
 .popup-submit, .popup-about
   display: none
