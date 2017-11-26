@@ -1,0 +1,205 @@
+
+.preloader 
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100%
+  margin: 5%
+  position: relative
+
+
+.preloader-container 
+  cursor: default
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+
+
+.preloader-pacman
+  width: 500px
+
+
+.preloader-pacman .dot 
+  display: inline-block
+  background: #666
+  height: 5px
+  width: 5px
+  margin-right: 20px
+  opacity: 0.7
+  border-radius: 50%
+  animation: fade-out 14s linear infinite
+  position: relative
+  top: -8px
+
+
+.preloader-pacman .pacman 
+  display: inline-block
+  background: #666
+  height: 20px
+  vertical-align: bottom
+  width: 20px
+  margin-right: 20px
+  opacity: 1
+  border-radius: 50%
+  position: relative
+  animation: move-forward 14s linear infinite
+  transform: translateX(-40px)
+
+
+.preloader-pacman .dot:nth-child(1) 
+  animation-delay: .4s
+
+
+.preloader-pacman .dot:nth-child(2) 
+  animation-delay: .8s
+
+
+.preloader-pacman .dot:nth-child(3) 
+  animation-delay: 1.2s
+
+
+.preloader-pacman .dot:nth-child(4) 
+  animation-delay: 1.6s
+
+
+.preloader-pacman .dot:nth-child(5) 
+  animation-delay: 2.0s
+
+
+.preloader-pacman .dot:nth-child(6) 
+  animation-delay: 2.4s
+
+
+.preloader-pacman .dot:nth-child(7) 
+  animation-delay: 2.8s
+
+
+.preloader-pacman .dot:nth-child(8) 
+  animation-delay: 3.2s
+
+
+.preloader-pacman .dot:nth-child(9) 
+  animation-delay: 3.6s
+
+
+.preloader-pacman .dot:nth-child(10) 
+  animation-delay: 4.0s
+
+
+.preloader-pacman .dot:nth-child(11) 
+  animation-delay: 4.4s
+
+
+.preloader-pacman .dot:nth-child(12) 
+  animation-delay: 4.8s
+
+
+.preloader-pacman .dot:nth-child(13) 
+  animation-delay: 5.2s
+
+
+.preloader-pacman .dot:nth-child(14) 
+  animation-delay: 5.6s
+
+
+.preloader-pacman .dot:nth-child(15) 
+  animation-delay: 6.0s
+
+
+.preloader-pacman .dot:nth-child(16) 
+  animation-delay: 6.4s
+
+
+.preloader-pacman .dot:nth-child(17) 
+  animation-delay: 6.8s
+
+
+.preloader-pacman .pacman:before 
+  content: ''
+  display: inline-block
+  background: transparent
+  vertical-align: bottom
+  border-top: 10px solid transparent
+  border-bottom: 10px solid transparent
+  right: 0px
+  border-right: 10px solid #fff
+  opacity: 1
+  position: absolute
+  animation: eat .4s infinite
+
+.preloader-pacman .ghost 
+  height: 25px
+  width: 25px
+  background: #669
+  top: -22px
+  border-top-left-radius: 50%
+  border-top-right-radius: 50%
+  position: relative
+  transform: translateX(550px)
+  animation: move-back 14s linear infinite
+  animation-delay: 7s
+  opacity: 0
+
+.preloader-pacman .ghost:before 
+  height: 5px
+  content: ''
+  width: 3px
+  background: #fff
+  top: 7px
+  left: 7px
+  z-index: 10
+  position: absolute
+
+
+.preloader-pacman .ghost:after 
+  height: 5px
+  content: ''
+  width: 3px
+  background: #fff
+  top: 7px
+  right: 7px
+  z-index: 10
+  position: absolute
+
+@keyframes eat 
+  50%
+    transform: translateX(10px) scale(0.1)
+
+
+@keyframes move-back 
+  3%
+    opacity: 1
+  35%
+    opacity: 1
+  49%
+    opacity: 0
+  50%
+    transform: translateX(0px)
+
+@keyframes move-forward 
+  50%
+    transform: translateX(500px)
+
+  50.1%
+    transform: translateX(500px) scaleX(-1)
+    opacity: 1
+
+  100%
+    transform: translateX(-40px) scaleX(-1)
+
+
+
+@keyframes fade-out 
+  0%
+    opacity: 0
+
+  40%
+    opacity: 0
+
+  89.99%
+    opacity: 0
+
+  90%
+    opacity: 0.5
+
