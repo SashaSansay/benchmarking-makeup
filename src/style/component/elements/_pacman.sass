@@ -1,3 +1,6 @@
+.loading .preloader
+  display: block
+
 
 .preloader 
   display: flex
@@ -6,6 +9,7 @@
   width: 100%
   margin: 5%
   position: relative
+  display: none
 
 
 .preloader-container 
@@ -203,3 +207,7 @@
   90%
     opacity: 0.5
 
+
+@media all and (max-width: $mobileWidth)
+  .preloader
+    margin-bottom: 110px
