@@ -13,6 +13,8 @@
   height: 100%
   overflow-y: scroll
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.06)
+  padding-bottom: calcRem(120px)
+
 //
 //.b-sidebar::-webkit-scrollbar
 //  -webkit-appearance: none
@@ -142,8 +144,8 @@
 .b-sidebar__copyright
   padding: calcRem(40px) calcRem(50px)
   box-shadow: 0 -1px 0 $whiteBlue
-  position: -webkit-sticky
-  position: sticky
+  width: calcRem(352px)
+  position: fixed
   bottom: 0
   background: white
   h5
@@ -187,6 +189,9 @@
 
 @media screen and (max-width: 1300px)
   .b-wrap__sidebar
+    width: 300px
+
+  .b-sidebar__copyright
     width: 300px
 
   .b-sidebar__subscribe-form
